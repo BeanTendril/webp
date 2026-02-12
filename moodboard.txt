@@ -1,0 +1,7 @@
+Színek:
+#2C3E50, #ECF0F1, #C0392B, #E67E22
+
+Betűtípusok:
+Roboto Condensed
+Open Sans
+Lato

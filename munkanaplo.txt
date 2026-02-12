@@ -1,0 +1,17 @@
+1. Témaválasztás és koncepció – tervezett: 30 perc, tényleges: 25 perc
+2. Moodboard és design tervezés – tervezett: 60 perc, tényleges: 75 perc
+3. Szöveges tartalom összegyűjtése – tervezett: 45 perc, tényleges: 50 perc
+4. Képek gyűjtése és rendszerezése – tervezett: 40 perc, tényleges: 45 perc
+5. Projekt mappaszerkezet kialakítása – tervezett: 15 perc, tényleges: 10 perc
+6. Főoldal (index.html) vázlat elkészítése – tervezett: 60 perc, tényleges: 55 perc
+7. Alap stíluslap (style.css) megírása – tervezett: 45 perc, tényleges: 40 perc
+8. Navigáció és fejléc kialakítása – tervezett: 40 perc, tényleges: 50 perc
+9. Szereplők oldal elkészítése – tervezett: 50 perc, tényleges: 45 perc
+10. Galéria oldal elkészítése grid elrendezéssel – tervezett: 60 perc, tényleges: 70 perc
+11. Reszponzív megjelenítés (mobil, tablet) – tervezett: 90 perc, tényleges: 100 perc
+12. Animációk és finomhangolás – tervezett: 45 perc, tényleges: 60 perc
+13. Dokumentáció (felhasználói és fejlesztői) – tervezett: 60 perc, tényleges: 55 perc
+14. Tesztelés és hibajavítás – tervezett: 45 perc, tényleges: 40 perc
+
+Összes tervezett idő: kb. 11,5 óra
+Összes ráfordított idő: kb. 12 óra

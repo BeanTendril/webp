@@ -1,0 +1,64 @@
+Fejlesztői dokumentáció - Dr. House Weboldal
+
+A weboldal felépítésének technikai magyarázata.
+
+1. HTML Kód Részlet (Navigáció):
+
+<nav>
+    <div class="brand">HOUSE M.D.</div>
+    <ul>
+        <li>
+            <a href="#">Menü ▼</a>
+            <ul class="dropdown">
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="szereplok.html">Szereplők</a></li>
+                <li><a href="galeria.html">Galéria</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+Magyarázat: Ez a kód felel a navigációs menüért. A <nav> tag tartalmazza a logót (brand) és a listát (ul). A legördülő menüt egy beágyazott lista (ul class="dropdown") valósítja meg, amely alaphelyzetben rejtve van, de CSS segítségével megjelenik, ha a felhasználó a "Menü" fölé viszi az egeret.
+
+2. HTML Kód Részlet (Galéria Grid):
+
+<div class="gallery-grid">
+    <div class="gallery-item">
+        <img src="..." alt="Kép leírása">
+        <span>fajlnev.jpg</span>
+    </div>
+    <!-- További elemek... -->
+</div>
+
+Magyarázat: A galéria rács elrendezését a "gallery-grid" osztályú tároló hozza létre. Minden kép és a hozzátartozó fájlnév egy "gallery-item" divbe kerül. Ez lehetővé teszi, hogy a CSS Grid segítségével a képek automatikusan elrendeződjenek a képernyő méretétől függően.
+
+3. CSS Kód Részlet (Változók és Alapbeállítások):
+
+:root {
+    --primary-color: #2C3E50;
+    --secondary-color: #ECF0F1;
+    --accent-color: #C0392B;
+    --font-heading: 'Roboto Condensed', sans-serif;
+}
+body {
+    font-family: var(--font-body);
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+Magyarázat: A :root szelektorban definiáljuk a CSS változókat (pl. színek, betűtípusok). Ez megkönnyíti a design módosítását, mivel elég egy helyen átírni a színkódot. A body elemre alkalmazzuk az alapvető betűtípust és háttérszínt ezekkel a változókkal.
+
+4. CSS Kód Részlet (Reszponzív Grid):
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+.gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+Magyarázat: A "gallery-grid" osztály CSS Gridet használ. A "repeat(auto-fit, minmax(250px, 1fr))" utasítás biztosítja a reszponzivitást: annyi oszlop jön létre, ahány 250px széles elem elfér. Ha a képernyő szűkebb, az elemek új sorba törnek. Az "object-fit: cover" biztosítja, hogy a képek torzítás nélkül töltsék ki a rendelkezésre álló helyet.

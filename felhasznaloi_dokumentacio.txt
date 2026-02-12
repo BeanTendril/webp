@@ -1,0 +1,51 @@
+Felhasználói dokumentáció
+
+Ez a dokumentáció a Dr. House című televíziós sorozathoz készített rajongói weboldal használatát mutatja be. Az oldal célja, hogy átfogó képet adjon a sorozatról, bemutassa a főbb szereplőket, valamint képgalériát biztosítson az érdeklődők számára.
+
+Rendszerkövetelmények
+
+A weboldal megtekintéséhez stabil internetkapcsolat és egy korszerű webböngésző szükséges, például:
+
+Google Chrome
+
+Mozilla Firefox
+
+Microsoft Edge
+
+Safari
+
+A megfelelő működés érdekében ajánlott a böngésző legfrissebb verziójának használata.
+
+Az oldal felépítése és használata
+1. Főoldal (index.html)
+
+A főoldal az oldal kezdőfelülete, amely az alábbi részeket tartalmazza:
+Fejléc (Header): Az oldal címét és a navigációs menüt foglalja magában.
+Navigációs menü: A menüsor segítségével érhetők el az oldal további részei. A „Menü” gomb fölé helyezve a kurzort (mobil eszközön rákattintva) egy legördülő lista jelenik meg.
+Kiemelt szakasz (Hero): Egy nagyméretű kép és egy rövid üdvözlő szöveg található itt.
+A sorozatról: Rövid ismertető a történetről és a főszereplőről, Dr. Gregory House-ról.
+Oldalsáv (Sidebar): Gyors információk, például a műfaj és az évadok száma, valamint külső hivatkozások (pl. PORT.hu, Wikipedia).
+Lábléc (Footer): A weboldal készítőjének neve és a készítés dátuma.
+
+2. Szereplők (szereplok.html)
+Ezen az oldalon a sorozat legfontosabb karakterei kerülnek bemutatásra.
+A szereplők képes kártyák formájában jelennek meg.
+Minden kártya tartalmazza:
+a karakter nevét,
+az őt alakító színész nevét,
+valamint egy rövid leírást a karakter szerepéről.
+Az elrendezés célja, hogy az információk könnyen áttekinthetők és érthetők legyenek.
+
+3. Galéria (galeria.html)
+A galéria oldalon a sorozathoz kapcsolódó képek tekinthetők meg.
+A képek rácsos (grid) elrendezésben jelennek meg az átláthatóság érdekében.
+Minden kép alatt feltüntetésre kerül a fájl neve, amely segíti az azonosítást.
+Mobilnézet
+A weboldal reszponzív kialakítású, vagyis különböző képernyőméreteken (mobiltelefon, tablet, asztali számítógép) is megfelelően jelenik meg.
+Kisebb kijelzőkön a navigációs menü átalakulhat a jobb helykihasználás érdekében.
+
+4. Hibaelhárítás
+Amennyiben az oldal nem jelenik meg megfelelően, az alábbi lépések javasoltak:
+Az oldal frissítése (F5 billentyű).
+Az internetkapcsolat ellenőrzése.
+Az oldal megnyitása egy másik webböngészőben.
